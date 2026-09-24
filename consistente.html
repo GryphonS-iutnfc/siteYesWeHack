@@ -1,36 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Partie consistente</title>
-    <!-- va être remplacée par styles.css mais je veux assurer la compatibilité-->
-    <style> 
-        body {margin: 0}
-        nav {width: 100%;}
-        nav ul, footer {background-color: rgb(40, 41, 40); color: white; padding: 3%; display: flex; align-items: center; flex-direction: row;}
-        nav img {margin: 0.5em 8em 0.5em 5em;}
-        nav li {padding: 0.5em 2em; list-style: none; font-size: 2em;}
-        nav li a {text-decoration: none; color: white; font-family: sans-serif;}
-        footer {text-align: center;}
 
-    </style>
+    <title>Nos partenaires | Yes We Hack</title>
+
+    <link rel="stylesheet" href="modelespage.css">
 </head>
-<body>
-    <nav>
-        <ul>
-            <a href=index.html><img src="test.jpg" width="50px" height="50px" alt="logo"></a>
-            <li><a href="economie.html">Economie</a></li>
-            <li><a href="histoire.html">Histoire</a></li>
-            <li><a href="partenaires.html">Partenaires</a></li>
-            <li><a href="service.html">Services</a></li>
-        </ul>
-    </nav>
 
-    <!-- Contenu de ta page ici-->
+<body>
+
+    <!-- Navigation -->
+    <header class="menu">
+
+        <a href="index.html" class="logo">
+            <img
+                src="Cheshire_Web.png"
+                alt="Logo Cheshire Web"
+            >
+        </a>
+
+        <nav aria-label="Navigation principale">
+            <ul class="nav-links">
+                <li>
+                    <a href="histoire.html">Histoire</a>
+                </li>
+
+                <li>
+                    <a href="partenaires.html" class="active">Partenaires</a>
+                </li>
+
+                <li>
+                    <a href="economie.html">Économie</a>
+                </li>
+
+                <li>
+                    <a href="services.html">Nos services</a>
+                </li>
+            </ul>
+        </nav>
+
+        <button class="menu-button" aria-label="Ouvrir le menu">
+            <img src="menu_icon.svg" alt="">
+        </button>
+
+    </header>
+
+
+    <main>
+
+        <!-- Introduction -->
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">YES WE HACK</p>
+
+                <h1>
+                    NOM DE PAGES
+                </h1>
+
+                <p class="hero-text">
+                    DESCRIPTION INTERESSANTE / IMPORTANTE
+                </p>
+
+            </div>
+
+        </section>
+        <!-- ###################### -->
+        <!-- Section supplémentaire -->
+        <!-- ###################### -->
+        <section class="about-more">
+
+            <div class="about-content">
+
+                <div>
+                    <p class="eyebrow">SLOGAN</p>
+
+                    <h2>
+                        RESTE DU SLOGAN/INFO
+                    </h2>
+                </div>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Integer posuere erat a ante. Praesent commodo cursus magna,
+                    vel scelerisque nisl consectetur et.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
 
     <footer>
-        <p>Cheshire Web 2026</p>
+        <p>
+            [prenom][nom] Groupe C2 16
+        </p>
     </footer>
+
 </body>
 </html>
