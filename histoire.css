@@ -298,6 +298,10 @@ nav {
     color: var(--color-text);
 
     border-top: 1px solid rgba(92, 0, 0, 0.12);
+
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
 }
 
 .about-histoire .eyebrow {
@@ -313,6 +317,7 @@ nav {
     gap: 70px;
 
     align-items: center;
+    gap: 5em;
 }
 
 .about-content h2 {
@@ -360,6 +365,10 @@ nav {
 .about-content > p a:hover {
     color: green;
     border-bottom-color: green;
+}
+
+.about-content:nth-child(even) {
+    flex-direction: row-reverse;
 }
 
 footer {
