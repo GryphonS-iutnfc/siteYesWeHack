@@ -161,7 +161,7 @@ nav {
 
 /*section utilisateur intéressé*/
 .section-2 {
-    height: 70vh;
+   height: calc(100vh - 200px);
     padding: 50px 40px;
     display: inline-flex;
     align-items: center;
