@@ -129,7 +129,7 @@ nav {
 }
 
 .section-1-image {
-    flex: 1;
+    flex: 1.01;
     border-radius: 7px; 
     width: 100%;
     height: calc(100vh - 200px);
