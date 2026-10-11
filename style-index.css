@@ -132,7 +132,7 @@ nav {
     flex: 1.01;
     border-radius: 7px; 
     width: 100%;
-    height: calc(100vh - 200px);
+    height: calc(100vh - 120px);
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -161,7 +161,7 @@ nav {
 
 /*section utilisateur intéressé*/
 .section-2 {
-   height: calc(100vh - 200px);
+    height: calc(100vh - 200px);
     padding: 50px 40px;
     display: inline-flex;
     align-items: center;
