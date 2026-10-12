@@ -189,7 +189,6 @@ nav {
     line-height: 1.6;
     text-transform: uppercase;
 }
-
 /*section premier clic css */
 
 .hero {
@@ -303,11 +302,12 @@ nav {
 
 .zigzag-card-date {
     font-size: 4em;
-    margin: 0 2em;
+    margin: 0 1em;
 }
 
 .zigzag-card-desc {
-    margin: 2em 2em;
+    margin: 0em 0em;
+    top:-50px;
 }
 
 .zigzag-card:nth-child(even) {
