@@ -338,7 +338,7 @@ nav {
 #C3,
 #C4,
 #C5 {
-    scroll-margin-top: 120px;
+    scroll-margin-top: 20px;
 }
 
 @keyframes fadeIn {
@@ -819,16 +819,16 @@ nav {
     flex-direction: row-reverse;
 }
 #C1 {
-    scroll-margin-top: 120px;
+    scroll-margin-top: 20px;
 }
 #C2 {
-    scroll-margin-top: 120px;
+    scroll-margin-top: 20px;
 }
 #C3 {
-    scroll-margin-top: 120px;
+    scroll-margin-top: 20px;
 }
 #C4 {
-    scroll-margin-top: 120px;
+    scroll-margin-top: 20px;
 }
 #C5 {
     scroll-margin-top: 120px;
