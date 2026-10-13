@@ -185,7 +185,7 @@ nav {
 .eyebrow {
     margin-bottom: 15px;
 
-    color: var(--color-secondary);
+    color: var(--color-text-light);
     font-family: var(--font-heading);
     font-size: 14px;
     font-weight: 700;
@@ -225,7 +225,7 @@ nav {
     background: linear-gradient(
         90deg,
         var(--color-text-light),
-        var(--color-memory)
+        var(--color-text-light)
     );
 
     -webkit-background-clip: text;
