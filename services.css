@@ -178,10 +178,12 @@ nav {
 }
 
 
+
+/*section premier clic css */
 .eyebrow {
     margin-bottom: 15px;
 
-    color: var(--color-secondary);
+    color: var(--color-text-light);
     font-family: var(--font-heading);
     font-size: 14px;
     font-weight: 700;
@@ -189,7 +191,6 @@ nav {
     line-height: 1.6;
     text-transform: uppercase;
 }
-/*section premier clic css */
 
 .hero {
     min-height: 75vh;
@@ -220,6 +221,25 @@ nav {
         var(--color-background);
 }
 
+.hero {
+    min-height: 75vh;
+    padding: 170px 8% 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    background:
+    linear-gradient(to bottom, var(--color-secondary) 95%, var(--color-background-soft));
+}
+
+.hero-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 .hero h1 {
     margin-bottom: 25px;
 
@@ -229,14 +249,11 @@ nav {
     line-height: 1.05;
     letter-spacing: -1px;
 
-    background: linear-gradient(
-        90deg,
-        var(--color-primary),
-        var(--color-secondary)
-    );
+    background: var(--color-text-light);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+
 
     filter: drop-shadow(
         0 4px 12px rgba(92, 0, 0, 0.08)
@@ -247,11 +264,12 @@ nav {
     max-width: 700px;
     margin: 0 auto;
 
-    color: #514747;
+    color: var(--color-text-light);
     font-family: var(--font-body);
     font-size: 18px;
     line-height: 1.9;
 }
+
 
 /*section utilisateur intéressé*/
 #menu-interne {
