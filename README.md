@@ -30,7 +30,7 @@ Vérification W3C : [Détail ici](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 Vérification de l'éco-conception : [Détail ici](https://www.ecoindex.fr/resultat/?id=462b2932-d123-4ad0-966c-018534fc3caf)
 
-### Page d'accueil
+### Page Histoire
 
 **Auteur : SMITH Gryphon**
 
@@ -38,7 +38,7 @@ Vérification W3C : [Détail ici](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 Vérification de l'éco-conception : [Détail ici](https://www.ecoindex.fr/resultat/?id=588d860b-72f1-4f25-91c5-8c14d7f8c0c8)
 
-### Page d'accueil
+### Page Partenaires
 
 **Auteur : VENDEVOGEL Rémy**
 
@@ -46,7 +46,7 @@ Vérification W3C : [Détail ici](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 Vérification de l'éco-conception : [Détail ici](https://www.ecoindex.fr/resultat/?id=527cbb03-00fe-4a05-890b-4112eb769411)
 
-### Page d'accueil
+### Page Économie
 
 **Auteur : PAWLAK Jules**
 
@@ -54,7 +54,7 @@ Vérification W3C : [Détail ici](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 Vérification de l'éco-conception : [Détail ici](https://www.ecoindex.fr/resultat/?id=5d4cdcae-f08a-4e0a-b122-91691e0233b0)
 
-### Page d'accueil
+### Page Services
 
 **Auteur : THIRODE Erwan**
 
