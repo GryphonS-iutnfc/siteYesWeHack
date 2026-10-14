@@ -230,11 +230,10 @@ nav {
 footer {
     max-height: 50px;
     padding: 50px;
-    color: var(--color-primary);
-    border-top: 2px solid var(--color-primary);
+    color: var(--color-white);
     align-items: center;
     text-align: center;
     font-family: var(--font-body);
     font-size: 15px;
-    background: var(--color-background);
+    background: var(--color-primary);
 }
