@@ -183,11 +183,8 @@ nav {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(
-        to bottom,
-        var(--color-secondary) 0%,
-        var(--color-primary) 85%,
-        var(--color-background-soft) 100%
+    background:
+    linear-gradient(to bottom, var(--color-secondary) 95%, var(--color-background-soft));
     );
 }
 
